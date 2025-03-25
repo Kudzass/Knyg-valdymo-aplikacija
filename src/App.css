@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 16px;
+  margin-top: 60px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #f0f0f0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"] {
+  background-color: #00c9a7;
+  color: white;
+  margin-top: 10px;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+button[type="submit"]:hover {
+  background-color: #00a78e;
+}
+
+.book-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+}
+
+.book-info {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.book-edit {
+  background-color: #007bff;
+  color: green;
+}
+
+.book-edit:hover {
+  background-color: #0056b3;
+}
+
+.book-delete {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.book-delete:hover {
+  background-color: #e60000;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
